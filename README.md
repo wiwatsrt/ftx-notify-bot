@@ -1,10 +1,6 @@
 # FTX Notify Bot
 Get Telegram notifications if orders are filled. Run on k8s
 
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
 ## Installation
 
 ```bash
@@ -46,6 +42,11 @@ create `FTX_ACCOUNTS` for `ftx-notify-secrets.yml`
 
 ```
 echo -n '[{"key":"key","secret":"secret","subaccount":"account name"}]' | base64
+```
+
+## Run on k8s
+```
+kubectl apply -f deployment.yaml,ftx-notify-secrets.yml
 ```
 ## Support
 
