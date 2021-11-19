@@ -48,15 +48,6 @@ echo -n '[{"key":"key","secret":"secret","subaccount":"account name"}]' | base64
 ```
 kubectl apply -f deployment.yaml,ftx-notify-secrets.yml
 ```
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## Thanks
 
@@ -64,4 +55,4 @@ Forked from [raftheunis87/order-alert-bot](https://github.com/raftheunis87/order
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+[MIT licensed](LICENSE).
